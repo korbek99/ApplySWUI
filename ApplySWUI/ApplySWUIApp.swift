@@ -13,7 +13,8 @@ struct ApplySWUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            HitsContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
